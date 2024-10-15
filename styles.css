@@ -57,7 +57,7 @@ header {
 
 .header-search-bar button.header-mic-button {
     position: relative;
-    left: 20px;
+    left: 40px; 
     top: 50%;
     transform: translateY(-50%);
     background-color: transparent;
@@ -65,14 +65,13 @@ header {
     cursor: pointer;
     padding: 0px;
     width: 40px;
-    height: 40px; 
-    border-radius: 50%; 
+    height: 40px;
+    border-radius: 50%;
     background-color: #f1f1f1;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 
 .header-user-menu {
     display: flex;
