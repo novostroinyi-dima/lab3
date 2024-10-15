@@ -47,7 +47,7 @@ header {
 
 .header-search-bar button.header-search-icon {
     position: absolute;
-    right: 100px; 
+    right: 120px; /* Змінено для збільшення відступу від краю для пошуку */
     top: 50%;
     transform: translateY(-50%);
     background-color: transparent;
@@ -57,7 +57,7 @@ header {
 
 .header-search-bar button.header-mic-button {
     position: absolute;
-    right: 40px; 
+    right: 60px; /* Зменшено значення, щоб змістити мікрофон правіше */
     top: 50%;
     transform: translateY(-50%);
     background-color: transparent;
