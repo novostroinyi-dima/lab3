@@ -57,7 +57,7 @@ header {
 
 .header-search-bar button.header-mic-button {
     position: absolute;
-    right: 5px; /* Оновлено для точного розташування у правому куті */
+    right: 0px; /* Оновлено для точного розташування у правому куті */
     top: 50%;
     transform: translateY(-50%);
     background-color: transparent;
