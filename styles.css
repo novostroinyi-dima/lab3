@@ -56,21 +56,21 @@ header {
 }
 
 .header-search-bar button.header-mic-button {
-    position: absolute;
-    right: 0px; /* Мікрофон тепер буде на краю */
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    padding: 0px;
-    width: 50px; /* Можна трохи збільшити ширину для зручності */
-    height: 50px;
-    border-radius: 50%;
-    background-color: #f1f1f1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    position: absolute !important;
+    right: -10px !important; /* Зміщуємо мікрофон за межі правого краю */
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    background-color: transparent !important;
+    border: none !important;
+    cursor: pointer !important;
+    padding: 0px !important;
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50% !important;
+    background-color: #f1f1f1 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
 }
 
 .header-user-menu {
