@@ -29,7 +29,7 @@ header {
 
 .header-search-bar {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     max-width: 600px;
@@ -38,7 +38,7 @@ header {
 }
 
 .header-search-bar input {
-    padding: 10px 50px 10px 20px;
+    padding: 10px 60px 10px 20px; /* Додаємо більше padding справа для місця під іконки */
     font-size: 16px;
     width: 100%;
     border: 1px solid #ddd;
@@ -47,7 +47,7 @@ header {
 
 .header-search-bar button.header-search-icon {
     position: absolute;
-    right: 60px; /* Встановлюємо правіше пошукову іконку */
+    right: 50px; /* Пошукова іконка трохи зліва від краю */
     top: 50%;
     transform: translateY(-50%);
     background-color: transparent;
@@ -57,7 +57,7 @@ header {
 
 .header-search-bar button.header-mic-button {
     position: absolute;
-    right: 0px; /* Мікрофон правіше, ближче до краю */
+    right: 10px; /* Прямо на правому краю */
     top: 50%;
     transform: translateY(-50%);
     background-color: transparent;
