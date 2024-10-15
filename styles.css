@@ -38,7 +38,7 @@ header {
 }
 
 .header-search-bar input {
-    padding: 10px 50px 10px 20px; /* Менше відступу справа для коректного вирівнювання */
+    padding: 10px 50px 10px 20px; /* Додамо більше простору з правого боку */
     font-size: 16px;
     width: 100%;
     border: 1px solid #ddd;
@@ -47,7 +47,7 @@ header {
 
 .header-search-bar button.header-search-icon {
     position: absolute;
-    right: 60px; /* Зміщуємо пошукову іконку */
+    right: 60px; /* Відступ для пошукової іконки */
     top: 50%;
     transform: translateY(-50%);
     background-color: transparent;
@@ -57,15 +57,15 @@ header {
 
 .header-search-bar button.header-mic-button {
     position: absolute;
-    right: -10px; /* Більше зміщуємо мікрофон до краю */
+    right: 0px; /* Мікрофон тепер буде на краю */
     top: 50%;
     transform: translateY(-50%);
     background-color: transparent;
     border: none;
     cursor: pointer;
     padding: 0px;
-    width: 40px;
-    height: 40px;
+    width: 50px; /* Можна трохи збільшити ширину для зручності */
+    height: 50px;
     border-radius: 50%;
     background-color: #f1f1f1;
     display: flex;
