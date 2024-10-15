@@ -57,7 +57,7 @@ header {
 
 .header-search-bar button.header-mic-button {
     position: absolute;
-    right: 10px;
+    right: 0;
     top: 50%;
     transform: translateY(-50%);
     background-color: transparent;
