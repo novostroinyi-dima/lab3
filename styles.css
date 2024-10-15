@@ -38,7 +38,7 @@ header {
 }
 
 .header-search-bar input {
-    padding: 10px 60px 10px 20px; /* Додаємо більше padding справа для місця під іконки */
+    padding: 10px 50px 10px 20px; /* Менше відступу справа для коректного вирівнювання */
     font-size: 16px;
     width: 100%;
     border: 1px solid #ddd;
@@ -47,7 +47,7 @@ header {
 
 .header-search-bar button.header-search-icon {
     position: absolute;
-    right: 50px; /* Пошукова іконка трохи зліва від краю */
+    right: 60px; /* Зміщуємо пошукову іконку */
     top: 50%;
     transform: translateY(-50%);
     background-color: transparent;
@@ -57,7 +57,7 @@ header {
 
 .header-search-bar button.header-mic-button {
     position: absolute;
-    right: 0px; /* Оновлено для точного розташування у правому куті */
+    right: 10px; /* Більше зміщуємо мікрофон до краю */
     top: 50%;
     transform: translateY(-50%);
     background-color: transparent;
